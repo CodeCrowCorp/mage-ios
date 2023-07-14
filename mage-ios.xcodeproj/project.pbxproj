@@ -17,6 +17,10 @@
 		B20687A62A6135DD00E3B190 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B206877C2A6135D700E3B190 /* ContentView.swift */; };
 		B20687A72A6135DD00E3B190 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B206877D2A6135DD00E3B190 /* Assets.xcassets */; };
 		B20687A82A6135DD00E3B190 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B206877D2A6135DD00E3B190 /* Assets.xcassets */; };
+		B20687B92A61377A00E3B190 /* .github in Resources */ = {isa = PBXBuildFile; fileRef = B20687B72A61377A00E3B190 /* .github */; };
+		B20687BA2A61377A00E3B190 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B20687B82A61377A00E3B190 /* README.md */; };
+		B20687BD2A61384100E3B190 /* Model in Resources */ = {isa = PBXBuildFile; fileRef = B20687BB2A61384100E3B190 /* Model */; };
+		B20687BE2A61384100E3B190 /* View in Resources */ = {isa = PBXBuildFile; fileRef = B20687BC2A61384100E3B190 /* View */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		B206879B2A6135DD00E3B190 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B206879F2A6135DD00E3B190 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		B20687A12A6135DD00E3B190 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		B20687B72A61377A00E3B190 /* .github */ = {isa = PBXFileReference; lastKnownFileType = folder; name = .github; path = ../cro_ios/.github; sourceTree = "<group>"; };
+		B20687B82A61377A00E3B190 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../cro_ios/README.md; sourceTree = "<group>"; };
+		B20687BB2A61384100E3B190 /* Model */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Model; path = ../../cro_ios/cro_ios/Model; sourceTree = "<group>"; };
+		B20687BC2A61384100E3B190 /* View */ = {isa = PBXFileReference; lastKnownFileType = folder; name = View; path = ../../cro_ios/cro_ios/View; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +94,8 @@
 		B20687752A6135D600E3B190 = {
 			isa = PBXGroup;
 			children = (
+				B20687B72A61377A00E3B190 /* .github */,
+				B20687B82A61377A00E3B190 /* README.md */,
 				B206877A2A6135D700E3B190 /* Shared */,
 				B20687892A6135DD00E3B190 /* macOS */,
 				B20687922A6135DD00E3B190 /* Tests iOS */,
@@ -97,6 +107,9 @@
 		B206877A2A6135D700E3B190 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				B20687BF2A61389200E3B190 /* ViewModel */,
+				B20687BB2A61384100E3B190 /* Model */,
+				B20687BC2A61384100E3B190 /* View */,
 				B206877B2A6135D700E3B190 /* mage_iosApp.swift */,
 				B206877C2A6135D700E3B190 /* ContentView.swift */,
 				B206877D2A6135DD00E3B190 /* Assets.xcassets */,
@@ -139,6 +152,13 @@
 				B20687A12A6135DD00E3B190 /* Tests_macOSLaunchTests.swift */,
 			);
 			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		B20687BF2A61389200E3B190 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,6 +286,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B20687BA2A61377A00E3B190 /* README.md in Resources */,
+				B20687B92A61377A00E3B190 /* .github in Resources */,
+				B20687BD2A61384100E3B190 /* Model in Resources */,
+				B20687BE2A61384100E3B190 /* View in Resources */,
 				B20687A72A6135DD00E3B190 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
