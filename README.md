@@ -2,7 +2,7 @@
 <br>
 
 <h3 align="center">
-    Code Crow iOS app
+    Mage iOS app
 </h3>
 
 <br>
