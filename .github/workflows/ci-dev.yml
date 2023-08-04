@@ -1,4 +1,4 @@
-name: dev-ios.yml
+name: ci-dev.yml
 
 on:
   pull_request:
