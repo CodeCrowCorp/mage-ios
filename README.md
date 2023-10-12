@@ -40,4 +40,4 @@ Once you've forked and cloned the project:
 Your feedback is welcome and appreciated! Please use the issue tracker to talk about potential implementations or make feature requests. If you're interested in making a PR, we suggest opening up an issue to talk about the change you'd like to make as early as possible.
 
 ## Base project
-https://blog.devgenius.io/using-the-mvvm-architectural-design-pattern-in-ios-c70e16352be5
+https://github.com/azamsharp/StoreAppSwiftUI
