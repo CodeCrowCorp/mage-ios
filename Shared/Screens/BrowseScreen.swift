@@ -11,7 +11,8 @@ struct BrowseScreen: View {
     
     @State private var isPresented: Bool = false
     @EnvironmentObject private var channelModel: ChannelModel
-    
+    @State private var errorMessage = ""
+
     var body: some View {
         List(channelModel.channels, id: \._id) { channel in
             NavigationLink(value: channel) {
@@ -22,6 +23,14 @@ struct BrowseScreen: View {
             ChannelScreen(channel: channel)
         })
         .listStyle(.plain)
+        .task {
+            do {
+                try await channelModel.fetchChannels()
+            } catch {
+                errorMessage = error.localizedDescription
+            }
+        }
+        Text(errorMessage)
     }
 }
 
