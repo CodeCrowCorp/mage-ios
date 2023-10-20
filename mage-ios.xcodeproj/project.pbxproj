@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		59EE85305C33747DC6BA71A6 /* Pods_mage_ios__iOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 059D7F8C19AF2971D2DD0896 /* Pods_mage_ios__iOS_.framework */; };
+		9BEA5CBC6DA56B9499A9D1D4 /* Pods_mage_ios__macOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81696DAA90B8B864CB90FACD /* Pods_mage_ios__macOS_.framework */; };
 		9C2619402AD3C06300E0DDD3 /* HttpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C26193F2AD3C06300E0DDD3 /* HttpClient.swift */; };
 		9C2619412AD3C06300E0DDD3 /* HttpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C26193F2AD3C06300E0DDD3 /* HttpClient.swift */; };
 		9C2619462AD3C21400E0DDD3 /* BrowseScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C2619452AD3C21400E0DDD3 /* BrowseScreen.swift */; };
@@ -33,6 +35,60 @@
 		B20687A62A6135DD00E3B190 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B206877C2A6135D700E3B190 /* ContentView.swift */; };
 		B20687A72A6135DD00E3B190 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B206877D2A6135DD00E3B190 /* Assets.xcassets */; };
 		B20687A82A6135DD00E3B190 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B206877D2A6135DD00E3B190 /* Assets.xcassets */; };
+		B34F18682AD9029F00207EBF /* Poppins-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B34F185E2AD9029F00207EBF /* Poppins-ExtraLight.ttf */; };
+		B34F18692AD9029F00207EBF /* Poppins-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B34F185E2AD9029F00207EBF /* Poppins-ExtraLight.ttf */; };
+		B34F186A2AD9029F00207EBF /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B34F185F2AD9029F00207EBF /* Poppins-Light.ttf */; };
+		B34F186B2AD9029F00207EBF /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B34F185F2AD9029F00207EBF /* Poppins-Light.ttf */; };
+		B34F186C2AD9029F00207EBF /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B34F18602AD9029F00207EBF /* Poppins-Medium.ttf */; };
+		B34F186D2AD9029F00207EBF /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B34F18602AD9029F00207EBF /* Poppins-Medium.ttf */; };
+		B34F186E2AD9029F00207EBF /* Poppins-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B34F18612AD9029F00207EBF /* Poppins-ExtraBold.ttf */; };
+		B34F186F2AD9029F00207EBF /* Poppins-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B34F18612AD9029F00207EBF /* Poppins-ExtraBold.ttf */; };
+		B34F18702AD9029F00207EBF /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B34F18622AD9029F00207EBF /* Poppins-Regular.ttf */; };
+		B34F18712AD9029F00207EBF /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B34F18622AD9029F00207EBF /* Poppins-Regular.ttf */; };
+		B34F18722AD9029F00207EBF /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B34F18632AD9029F00207EBF /* Poppins-Bold.ttf */; };
+		B34F18732AD9029F00207EBF /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B34F18632AD9029F00207EBF /* Poppins-Bold.ttf */; };
+		B34F18742AD9029F00207EBF /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B34F18642AD9029F00207EBF /* Poppins-Black.ttf */; };
+		B34F18752AD9029F00207EBF /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B34F18642AD9029F00207EBF /* Poppins-Black.ttf */; };
+		B34F18762AD9029F00207EBF /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B34F18652AD9029F00207EBF /* Poppins-Thin.ttf */; };
+		B34F18772AD9029F00207EBF /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B34F18652AD9029F00207EBF /* Poppins-Thin.ttf */; };
+		B34F18782AD9029F00207EBF /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B34F18662AD9029F00207EBF /* Poppins-SemiBold.ttf */; };
+		B34F18792AD9029F00207EBF /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B34F18662AD9029F00207EBF /* Poppins-SemiBold.ttf */; };
+		B34F187A2AD9029F00207EBF /* AppFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34F18672AD9029F00207EBF /* AppFonts.swift */; };
+		B34F187B2AD9029F00207EBF /* AppFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34F18672AD9029F00207EBF /* AppFonts.swift */; };
+		B34F187E2AD9067E00207EBF /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34F187D2AD9067E00207EBF /* LoginModel.swift */; };
+		B34F187F2AD9067E00207EBF /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34F187D2AD9067E00207EBF /* LoginModel.swift */; };
+		B34F18812AD912FF00207EBF /* View+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34F18802AD912FF00207EBF /* View+Extention.swift */; };
+		B34F18822AD912FF00207EBF /* View+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34F18802AD912FF00207EBF /* View+Extention.swift */; };
+		B34F18842AD924B000207EBF /* Userdefaults+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34F18832AD924B000207EBF /* Userdefaults+Extention.swift */; };
+		B34F18852AD924B000207EBF /* Userdefaults+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34F18832AD924B000207EBF /* Userdefaults+Extention.swift */; };
+		B34F18872AD929EB00207EBF /* AuthModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34F18862AD929EB00207EBF /* AuthModel.swift */; };
+		B34F18882AD929EB00207EBF /* AuthModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34F18862AD929EB00207EBF /* AuthModel.swift */; };
+		B34F188E2AD93EAB00207EBF /* ProgrammaticallyNavigationLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34F188D2AD93EAB00207EBF /* ProgrammaticallyNavigationLink.swift */; };
+		B34F188F2AD93EAB00207EBF /* ProgrammaticallyNavigationLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34F188D2AD93EAB00207EBF /* ProgrammaticallyNavigationLink.swift */; };
+		B3A89E842AD81FB90034E3C1 /* LogInScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A89E832AD81FB90034E3C1 /* LogInScreen.swift */; };
+		B3A89E852AD81FB90034E3C1 /* LogInScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A89E832AD81FB90034E3C1 /* LogInScreen.swift */; };
+		B3A89E882AD820060034E3C1 /* MageApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A89E872AD820060034E3C1 /* MageApp.swift */; };
+		B3A89E892AD820060034E3C1 /* MageApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A89E872AD820060034E3C1 /* MageApp.swift */; };
+		B3A89E8B2AD8219A0034E3C1 /* BaseScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A89E8A2AD8219A0034E3C1 /* BaseScreen.swift */; };
+		B3A89E8C2AD8219A0034E3C1 /* BaseScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A89E8A2AD8219A0034E3C1 /* BaseScreen.swift */; };
+		B3A89E8E2AD822120034E3C1 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A89E8D2AD822120034E3C1 /* Color.swift */; };
+		B3A89E8F2AD822120034E3C1 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A89E8D2AD822120034E3C1 /* Color.swift */; };
+		B3A89E922AD8227A0034E3C1 /* Color.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3A89E912AD8227A0034E3C1 /* Color.xcassets */; };
+		B3A89E932AD8227A0034E3C1 /* Color.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3A89E912AD8227A0034E3C1 /* Color.xcassets */; };
+		B3A89E962AD823190034E3C1 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A89E952AD823190034E3C1 /* AppConfig.swift */; };
+		B3A89E972AD823190034E3C1 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A89E952AD823190034E3C1 /* AppConfig.swift */; };
+		B3A89EA12AD824C90034E3C1 /* ButtonDestinationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A89E9D2AD824C90034E3C1 /* ButtonDestinationView.swift */; };
+		B3A89EA22AD824C90034E3C1 /* ButtonDestinationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A89E9D2AD824C90034E3C1 /* ButtonDestinationView.swift */; };
+		B3A89EA32AD824C90034E3C1 /* ButtonBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A89E9E2AD824C90034E3C1 /* ButtonBaseView.swift */; };
+		B3A89EA42AD824C90034E3C1 /* ButtonBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A89E9E2AD824C90034E3C1 /* ButtonBaseView.swift */; };
+		B3A89EA52AD824C90034E3C1 /* UnderlineButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A89E9F2AD824C90034E3C1 /* UnderlineButton.swift */; };
+		B3A89EA62AD824C90034E3C1 /* UnderlineButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A89E9F2AD824C90034E3C1 /* UnderlineButton.swift */; };
+		B3A89EA72AD824C90034E3C1 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A89EA02AD824C90034E3C1 /* ButtonView.swift */; };
+		B3A89EA82AD824C90034E3C1 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A89EA02AD824C90034E3C1 /* ButtonView.swift */; };
+		B3A89EAB2AD8270E0034E3C1 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A89EAA2AD8270E0034E3C1 /* ImageView.swift */; };
+		B3A89EAC2AD8270E0034E3C1 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A89EAA2AD8270E0034E3C1 /* ImageView.swift */; };
+		B3A89EAE2AD827390034E3C1 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A89EAD2AD827390034E3C1 /* Image.swift */; };
+		B3A89EAF2AD827390034E3C1 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A89EAD2AD827390034E3C1 /* Image.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +109,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		059D7F8C19AF2971D2DD0896 /* Pods_mage_ios__iOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mage_ios__iOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81696DAA90B8B864CB90FACD /* Pods_mage_ios__macOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mage_ios__macOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C26193F2AD3C06300E0DDD3 /* HttpClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpClient.swift; sourceTree = "<group>"; };
 		9C2619452AD3C21400E0DDD3 /* BrowseScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseScreen.swift; sourceTree = "<group>"; };
 		9C26194B2AD3C25800E0DDD3 /* URL+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+Extensions.swift"; sourceTree = "<group>"; };
@@ -62,6 +120,7 @@
 		9C2619572AD4E5D300E0DDD3 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		9C26195A2AD4F46800E0DDD3 /* ChannelScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelScreen.swift; sourceTree = "<group>"; };
 		9C26195D2AD5C0BE00E0DDD3 /* .gitignore.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = .gitignore.md; sourceTree = "<group>"; };
+		A76E1BE601563193B157906A /* Pods-mage-ios (macOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mage-ios (macOS).release.xcconfig"; path = "Target Support Files/Pods-mage-ios (macOS)/Pods-mage-ios (macOS).release.xcconfig"; sourceTree = "<group>"; };
 		B206877B2A6135D700E3B190 /* mage_iosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mage_iosApp.swift; sourceTree = "<group>"; };
 		B206877C2A6135D700E3B190 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B206877D2A6135DD00E3B190 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -74,6 +133,37 @@
 		B206879B2A6135DD00E3B190 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B206879F2A6135DD00E3B190 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		B20687A12A6135DD00E3B190 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		B34F185E2AD9029F00207EBF /* Poppins-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLight.ttf"; sourceTree = "<group>"; };
+		B34F185F2AD9029F00207EBF /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Light.ttf"; sourceTree = "<group>"; };
+		B34F18602AD9029F00207EBF /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		B34F18612AD9029F00207EBF /* Poppins-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBold.ttf"; sourceTree = "<group>"; };
+		B34F18622AD9029F00207EBF /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		B34F18632AD9029F00207EBF /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		B34F18642AD9029F00207EBF /* Poppins-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Black.ttf"; sourceTree = "<group>"; };
+		B34F18652AD9029F00207EBF /* Poppins-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Thin.ttf"; sourceTree = "<group>"; };
+		B34F18662AD9029F00207EBF /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		B34F18672AD9029F00207EBF /* AppFonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppFonts.swift; sourceTree = "<group>"; };
+		B34F187C2AD902D200207EBF /* mage-ios--iOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "mage-ios--iOS--Info.plist"; sourceTree = "<group>"; };
+		B34F187D2AD9067E00207EBF /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		B34F18802AD912FF00207EBF /* View+Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extention.swift"; sourceTree = "<group>"; };
+		B34F18832AD924B000207EBF /* Userdefaults+Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Userdefaults+Extention.swift"; sourceTree = "<group>"; };
+		B34F18862AD929EB00207EBF /* AuthModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthModel.swift; sourceTree = "<group>"; };
+		B34F188D2AD93EAB00207EBF /* ProgrammaticallyNavigationLink.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgrammaticallyNavigationLink.swift; sourceTree = "<group>"; };
+		B3A89E832AD81FB90034E3C1 /* LogInScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInScreen.swift; sourceTree = "<group>"; };
+		B3A89E872AD820060034E3C1 /* MageApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MageApp.swift; sourceTree = "<group>"; };
+		B3A89E8A2AD8219A0034E3C1 /* BaseScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseScreen.swift; sourceTree = "<group>"; };
+		B3A89E8D2AD822120034E3C1 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		B3A89E912AD8227A0034E3C1 /* Color.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Color.xcassets; sourceTree = "<group>"; };
+		B3A89E952AD823190034E3C1 /* AppConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
+		B3A89E9D2AD824C90034E3C1 /* ButtonDestinationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonDestinationView.swift; sourceTree = "<group>"; };
+		B3A89E9E2AD824C90034E3C1 /* ButtonBaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonBaseView.swift; sourceTree = "<group>"; };
+		B3A89E9F2AD824C90034E3C1 /* UnderlineButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnderlineButton.swift; sourceTree = "<group>"; };
+		B3A89EA02AD824C90034E3C1 /* ButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		B3A89EAA2AD8270E0034E3C1 /* ImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		B3A89EAD2AD827390034E3C1 /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		BC3FB7A006C5B05F02C35945 /* Pods-mage-ios (iOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mage-ios (iOS).debug.xcconfig"; path = "Target Support Files/Pods-mage-ios (iOS)/Pods-mage-ios (iOS).debug.xcconfig"; sourceTree = "<group>"; };
+		DDE340F168EC90617ECBCF19 /* Pods-mage-ios (iOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mage-ios (iOS).release.xcconfig"; path = "Target Support Files/Pods-mage-ios (iOS)/Pods-mage-ios (iOS).release.xcconfig"; sourceTree = "<group>"; };
+		F78DFAB64E365AD09C9B1D86 /* Pods-mage-ios (macOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mage-ios (macOS).debug.xcconfig"; path = "Target Support Files/Pods-mage-ios (macOS)/Pods-mage-ios (macOS).debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +171,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59EE85305C33747DC6BA71A6 /* Pods_mage_ios__iOS_.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +179,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BEA5CBC6DA56B9499A9D1D4 /* Pods_mage_ios__macOS_.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,6 +200,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4EDFE089ACB754F275E428A8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BC3FB7A006C5B05F02C35945 /* Pods-mage-ios (iOS).debug.xcconfig */,
+				DDE340F168EC90617ECBCF19 /* Pods-mage-ios (iOS).release.xcconfig */,
+				F78DFAB64E365AD09C9B1D86 /* Pods-mage-ios (macOS).debug.xcconfig */,
+				A76E1BE601563193B157906A /* Pods-mage-ios (macOS).release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		9C2619392AD3BED100E0DDD3 /* Clients */ = {
 			isa = PBXGroup;
 			children = (
@@ -120,6 +223,10 @@
 			isa = PBXGroup;
 			children = (
 				9C26194B2AD3C25800E0DDD3 /* URL+Extensions.swift */,
+				B3A89E8D2AD822120034E3C1 /* Color.swift */,
+				B3A89EAD2AD827390034E3C1 /* Image.swift */,
+				B34F18802AD912FF00207EBF /* View+Extention.swift */,
+				B34F18832AD924B000207EBF /* Userdefaults+Extention.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -130,21 +237,20 @@
 				9C2619512AD3CA9300E0DDD3 /* Channel.swift */,
 				9C2619542AD4CAFD00E0DDD3 /* ChannelModel.swift */,
 				9C2619572AD4E5D300E0DDD3 /* User.swift */,
+				B34F187D2AD9067E00207EBF /* LoginModel.swift */,
+				B34F18862AD929EB00207EBF /* AuthModel.swift */,
 			);
 			path = Models;
-			sourceTree = "<group>";
-		};
-		9C26193C2AD3BF1300E0DDD3 /* View Modifiers */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "View Modifiers";
 			sourceTree = "<group>";
 		};
 		9C26193D2AD3BF2300E0DDD3 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				B34F188C2AD93EAB00207EBF /* navigationLink */,
+				B3A89EA92AD8270E0034E3C1 /* imageView */,
+				B3A89E9C2AD824C90034E3C1 /* buttonView */,
 				9C26194E2AD3C3B000E0DDD3 /* ChannelCellView.swift */,
+				B3A89E8A2AD8219A0034E3C1 /* BaseScreen.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -154,6 +260,7 @@
 			children = (
 				9C2619452AD3C21400E0DDD3 /* BrowseScreen.swift */,
 				9C26195A2AD4F46800E0DDD3 /* ChannelScreen.swift */,
+				B3A89E832AD81FB90034E3C1 /* LogInScreen.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -161,27 +268,32 @@
 		B20687752A6135D600E3B190 = {
 			isa = PBXGroup;
 			children = (
+				B34F187C2AD902D200207EBF /* mage-ios--iOS--Info.plist */,
 				9C26195D2AD5C0BE00E0DDD3 /* .gitignore.md */,
 				B206877A2A6135D700E3B190 /* Shared */,
 				B20687892A6135DD00E3B190 /* macOS */,
 				B20687922A6135DD00E3B190 /* Tests iOS */,
 				B206879E2A6135DD00E3B190 /* Tests macOS */,
 				B20687832A6135DD00E3B190 /* Products */,
+				4EDFE089ACB754F275E428A8 /* Pods */,
+				F516048DCB480A169881D827 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		B206877A2A6135D700E3B190 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				B3A89E862AD81FFA0034E3C1 /* MageApp */,
 				9C26193E2AD3BF2B00E0DDD3 /* Screens */,
+				B3A89E942AD8230F0034E3C1 /* Common */,
 				9C26193D2AD3BF2300E0DDD3 /* Views */,
-				9C26193C2AD3BF1300E0DDD3 /* View Modifiers */,
 				9C26193B2AD3BF0600E0DDD3 /* Models */,
 				9C26193A2AD3BEED00E0DDD3 /* Extensions */,
 				9C2619392AD3BED100E0DDD3 /* Clients */,
 				B206877B2A6135D700E3B190 /* mage_iosApp.swift */,
 				B206877C2A6135D700E3B190 /* ContentView.swift */,
 				B206877D2A6135DD00E3B190 /* Assets.xcassets */,
+				B3A89E912AD8227A0034E3C1 /* Color.xcassets */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -223,6 +335,76 @@
 			path = "Tests macOS";
 			sourceTree = "<group>";
 		};
+		B34F185D2AD9029F00207EBF /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				B34F185E2AD9029F00207EBF /* Poppins-ExtraLight.ttf */,
+				B34F185F2AD9029F00207EBF /* Poppins-Light.ttf */,
+				B34F18602AD9029F00207EBF /* Poppins-Medium.ttf */,
+				B34F18612AD9029F00207EBF /* Poppins-ExtraBold.ttf */,
+				B34F18622AD9029F00207EBF /* Poppins-Regular.ttf */,
+				B34F18632AD9029F00207EBF /* Poppins-Bold.ttf */,
+				B34F18642AD9029F00207EBF /* Poppins-Black.ttf */,
+				B34F18652AD9029F00207EBF /* Poppins-Thin.ttf */,
+				B34F18662AD9029F00207EBF /* Poppins-SemiBold.ttf */,
+				B34F18672AD9029F00207EBF /* AppFonts.swift */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		B34F188C2AD93EAB00207EBF /* navigationLink */ = {
+			isa = PBXGroup;
+			children = (
+				B34F188D2AD93EAB00207EBF /* ProgrammaticallyNavigationLink.swift */,
+			);
+			path = navigationLink;
+			sourceTree = "<group>";
+		};
+		B3A89E862AD81FFA0034E3C1 /* MageApp */ = {
+			isa = PBXGroup;
+			children = (
+				B3A89E872AD820060034E3C1 /* MageApp.swift */,
+			);
+			path = MageApp;
+			sourceTree = "<group>";
+		};
+		B3A89E942AD8230F0034E3C1 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				B34F185D2AD9029F00207EBF /* Fonts */,
+				B3A89E952AD823190034E3C1 /* AppConfig.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		B3A89E9C2AD824C90034E3C1 /* buttonView */ = {
+			isa = PBXGroup;
+			children = (
+				B3A89E9D2AD824C90034E3C1 /* ButtonDestinationView.swift */,
+				B3A89E9E2AD824C90034E3C1 /* ButtonBaseView.swift */,
+				B3A89E9F2AD824C90034E3C1 /* UnderlineButton.swift */,
+				B3A89EA02AD824C90034E3C1 /* ButtonView.swift */,
+			);
+			path = buttonView;
+			sourceTree = "<group>";
+		};
+		B3A89EA92AD8270E0034E3C1 /* imageView */ = {
+			isa = PBXGroup;
+			children = (
+				B3A89EAA2AD8270E0034E3C1 /* ImageView.swift */,
+			);
+			path = imageView;
+			sourceTree = "<group>";
+		};
+		F516048DCB480A169881D827 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				059D7F8C19AF2971D2DD0896 /* Pods_mage_ios__iOS_.framework */,
+				81696DAA90B8B864CB90FACD /* Pods_mage_ios__macOS_.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -230,9 +412,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B20687AB2A6135DD00E3B190 /* Build configuration list for PBXNativeTarget "mage-ios (iOS)" */;
 			buildPhases = (
+				4E5853E7656A216DBA18CBBA /* [CP] Check Pods Manifest.lock */,
 				B206877E2A6135DD00E3B190 /* Sources */,
 				B206877F2A6135DD00E3B190 /* Frameworks */,
 				B20687802A6135DD00E3B190 /* Resources */,
+				508C24C94736F05E7F2FCBEE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -247,6 +431,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B20687AE2A6135DD00E3B190 /* Build configuration list for PBXNativeTarget "mage-ios (macOS)" */;
 			buildPhases = (
+				B187992630E8CD895C96C0BF /* [CP] Check Pods Manifest.lock */,
 				B20687842A6135DD00E3B190 /* Sources */,
 				B20687852A6135DD00E3B190 /* Frameworks */,
 				B20687862A6135DD00E3B190 /* Resources */,
@@ -348,7 +533,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B34F18682AD9029F00207EBF /* Poppins-ExtraLight.ttf in Resources */,
 				B20687A72A6135DD00E3B190 /* Assets.xcassets in Resources */,
+				B34F18782AD9029F00207EBF /* Poppins-SemiBold.ttf in Resources */,
+				B34F18702AD9029F00207EBF /* Poppins-Regular.ttf in Resources */,
+				B34F18722AD9029F00207EBF /* Poppins-Bold.ttf in Resources */,
+				B3A89E922AD8227A0034E3C1 /* Color.xcassets in Resources */,
+				B34F186A2AD9029F00207EBF /* Poppins-Light.ttf in Resources */,
+				B34F18742AD9029F00207EBF /* Poppins-Black.ttf in Resources */,
+				B34F186E2AD9029F00207EBF /* Poppins-ExtraBold.ttf in Resources */,
+				B34F186C2AD9029F00207EBF /* Poppins-Medium.ttf in Resources */,
+				B34F18762AD9029F00207EBF /* Poppins-Thin.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,7 +551,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B34F18692AD9029F00207EBF /* Poppins-ExtraLight.ttf in Resources */,
 				B20687A82A6135DD00E3B190 /* Assets.xcassets in Resources */,
+				B34F18792AD9029F00207EBF /* Poppins-SemiBold.ttf in Resources */,
+				B34F18712AD9029F00207EBF /* Poppins-Regular.ttf in Resources */,
+				B34F18732AD9029F00207EBF /* Poppins-Bold.ttf in Resources */,
+				B3A89E932AD8227A0034E3C1 /* Color.xcassets in Resources */,
+				B34F186B2AD9029F00207EBF /* Poppins-Light.ttf in Resources */,
+				B34F18752AD9029F00207EBF /* Poppins-Black.ttf in Resources */,
+				B34F186F2AD9029F00207EBF /* Poppins-ExtraBold.ttf in Resources */,
+				B34F186D2AD9029F00207EBF /* Poppins-Medium.ttf in Resources */,
+				B34F18772AD9029F00207EBF /* Poppins-Thin.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,21 +581,102 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4E5853E7656A216DBA18CBBA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mage-ios (iOS)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		508C24C94736F05E7F2FCBEE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mage-ios (iOS)/Pods-mage-ios (iOS)-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mage-ios (iOS)/Pods-mage-ios (iOS)-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-mage-ios (iOS)/Pods-mage-ios (iOS)-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B187992630E8CD895C96C0BF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mage-ios (macOS)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B206877E2A6135DD00E3B190 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3A89EAB2AD8270E0034E3C1 /* ImageView.swift in Sources */,
 				B20687A52A6135DD00E3B190 /* ContentView.swift in Sources */,
+				B3A89E8B2AD8219A0034E3C1 /* BaseScreen.swift in Sources */,
+				B34F18872AD929EB00207EBF /* AuthModel.swift in Sources */,
+				B3A89EA32AD824C90034E3C1 /* ButtonBaseView.swift in Sources */,
 				9C26194C2AD3C25800E0DDD3 /* URL+Extensions.swift in Sources */,
 				9C2619462AD3C21400E0DDD3 /* BrowseScreen.swift in Sources */,
 				9C26195B2AD4F46800E0DDD3 /* ChannelScreen.swift in Sources */,
+				B3A89EAE2AD827390034E3C1 /* Image.swift in Sources */,
 				9C26194F2AD3C3B000E0DDD3 /* ChannelCellView.swift in Sources */,
+				B34F188E2AD93EAB00207EBF /* ProgrammaticallyNavigationLink.swift in Sources */,
+				B3A89E962AD823190034E3C1 /* AppConfig.swift in Sources */,
+				B3A89EA52AD824C90034E3C1 /* UnderlineButton.swift in Sources */,
 				9C2619402AD3C06300E0DDD3 /* HttpClient.swift in Sources */,
 				9C2619552AD4CAFD00E0DDD3 /* ChannelModel.swift in Sources */,
+				B34F187E2AD9067E00207EBF /* LoginModel.swift in Sources */,
 				9C2619522AD3CA9300E0DDD3 /* Channel.swift in Sources */,
+				B34F18842AD924B000207EBF /* Userdefaults+Extention.swift in Sources */,
+				B3A89E8E2AD822120034E3C1 /* Color.swift in Sources */,
+				B3A89E842AD81FB90034E3C1 /* LogInScreen.swift in Sources */,
+				B34F187A2AD9029F00207EBF /* AppFonts.swift in Sources */,
 				9C2619582AD4E5D300E0DDD3 /* User.swift in Sources */,
+				B34F18812AD912FF00207EBF /* View+Extention.swift in Sources */,
 				B20687A32A6135DD00E3B190 /* mage_iosApp.swift in Sources */,
+				B3A89EA72AD824C90034E3C1 /* ButtonView.swift in Sources */,
+				B3A89E882AD820060034E3C1 /* MageApp.swift in Sources */,
+				B3A89EA12AD824C90034E3C1 /* ButtonDestinationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,16 +684,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3A89EAC2AD8270E0034E3C1 /* ImageView.swift in Sources */,
 				B20687A62A6135DD00E3B190 /* ContentView.swift in Sources */,
+				B3A89E8C2AD8219A0034E3C1 /* BaseScreen.swift in Sources */,
+				B34F18882AD929EB00207EBF /* AuthModel.swift in Sources */,
+				B3A89EA42AD824C90034E3C1 /* ButtonBaseView.swift in Sources */,
 				9C26194D2AD3C25800E0DDD3 /* URL+Extensions.swift in Sources */,
 				9C2619472AD3C21400E0DDD3 /* BrowseScreen.swift in Sources */,
 				9C26195C2AD4F46800E0DDD3 /* ChannelScreen.swift in Sources */,
+				B3A89EAF2AD827390034E3C1 /* Image.swift in Sources */,
 				9C2619502AD3C3B000E0DDD3 /* ChannelCellView.swift in Sources */,
+				B34F188F2AD93EAB00207EBF /* ProgrammaticallyNavigationLink.swift in Sources */,
+				B3A89E972AD823190034E3C1 /* AppConfig.swift in Sources */,
+				B3A89EA62AD824C90034E3C1 /* UnderlineButton.swift in Sources */,
 				9C2619412AD3C06300E0DDD3 /* HttpClient.swift in Sources */,
 				9C2619562AD4CAFD00E0DDD3 /* ChannelModel.swift in Sources */,
+				B34F187F2AD9067E00207EBF /* LoginModel.swift in Sources */,
 				9C2619532AD3CA9300E0DDD3 /* Channel.swift in Sources */,
+				B34F18852AD924B000207EBF /* Userdefaults+Extention.swift in Sources */,
+				B3A89E8F2AD822120034E3C1 /* Color.swift in Sources */,
+				B3A89E852AD81FB90034E3C1 /* LogInScreen.swift in Sources */,
+				B34F187B2AD9029F00207EBF /* AppFonts.swift in Sources */,
 				9C2619592AD4E5D300E0DDD3 /* User.swift in Sources */,
+				B34F18822AD912FF00207EBF /* View+Extention.swift in Sources */,
 				B20687A42A6135DD00E3B190 /* mage_iosApp.swift in Sources */,
+				B3A89EA82AD824C90034E3C1 /* ButtonView.swift in Sources */,
+				B3A89E892AD820060034E3C1 /* MageApp.swift in Sources */,
+				B3A89EA22AD824C90034E3C1 /* ButtonDestinationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -558,13 +861,16 @@
 		};
 		B20687AC2A6135DD00E3B190 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC3FB7A006C5B05F02C35945 /* Pods-mage-ios (iOS).debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z922LUHAYQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "mage-ios--iOS--Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -576,7 +882,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "io.codecrow.mage-ios";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.codecrow.mage-ios.11";
 				PRODUCT_NAME = "mage-ios";
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -587,13 +893,16 @@
 		};
 		B20687AD2A6135DD00E3B190 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDE340F168EC90617ECBCF19 /* Pods-mage-ios (iOS).release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z922LUHAYQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "mage-ios--iOS--Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -605,7 +914,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "io.codecrow.mage-ios";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.codecrow.mage-ios.11";
 				PRODUCT_NAME = "mage-ios";
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -617,6 +926,7 @@
 		};
 		B20687AF2A6135DD00E3B190 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F78DFAB64E365AD09C9B1D86 /* Pods-mage-ios (macOS).debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -645,6 +955,7 @@
 		};
 		B20687B02A6135DD00E3B190 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A76E1BE601563193B157906A /* Pods-mage-ios (macOS).release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

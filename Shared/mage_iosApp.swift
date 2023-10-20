@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct mage_iosApp: App {
+    
+    @State var isFromLogin = false
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LogInScreen(isLogin: _isFromLogin)
+                .environmentObject(LoginModel())
         }
     }
 }
