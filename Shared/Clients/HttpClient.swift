@@ -83,7 +83,9 @@ class HttpClient {
         let string = String(data: data, encoding: .utf8)!
         print("API RESPONSE: ", string)
         
-        guard let httpResponse = response as? HTTPURLResponse, httpResponse.statusCode == 200 || httpResponse.statusCode == 201 else {
+        guard let httpResponse = response as? HTTPURLResponse,
+              httpResponse.statusCode == 200 || httpResponse.statusCode == 201
+        else {
             throw NetworkError.invalidResponse
         }
         

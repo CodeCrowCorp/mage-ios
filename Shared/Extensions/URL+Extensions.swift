@@ -28,7 +28,7 @@ extension URL {
     static var allChannels: URL {
         URL(string: "/channels", relativeTo: Self.default)!
     }
-    
+  
     static var googleAuth: URL {
         URL(string: "/auth/google", relativeTo: Self.default)!
     }
@@ -48,7 +48,7 @@ extension URL {
     static var favorites: URL {
         URL(string: "/favorites", relativeTo: Self.default)!
     }
-    
+  
     //static func productsByCategory(_ categoryId: Int) -> URL {
         //return URL(string: "/api/v1/categories/\(categoryId)/products", relativeTo: Self.default)!
     //}
