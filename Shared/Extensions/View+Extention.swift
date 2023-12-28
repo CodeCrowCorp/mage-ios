@@ -33,7 +33,7 @@ extension View {
     }
     
     func handleAuthURL(_ url: URL) -> Bool {
-        guard url.scheme == "localhost" else {
+        guard url.scheme == "magemobile" else {
             return false
         }
         guard let components = URLComponents(url: url, resolvingAgainstBaseURL: true) else {

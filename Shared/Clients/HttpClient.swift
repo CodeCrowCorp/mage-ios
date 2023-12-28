@@ -74,7 +74,7 @@ class HttpClient {
         let configuration = URLSessionConfiguration.default
         
         configuration.httpAdditionalHeaders = ["Content-Type": "application/json",
-                                               "x-api-key": "gbg5qzp3s17zhddy3tv6o9rkovqm2q"]
+                                               "x-api-key": "89ft2axc7yttqj4cba22qit7ztpebi"] // gbg5qzp3s17zhddy3tv6o9rkovqm2q
         
         let session = URLSession(configuration: configuration)
         

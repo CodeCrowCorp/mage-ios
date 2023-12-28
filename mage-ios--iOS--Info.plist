@@ -11,7 +11,7 @@
 			<string></string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>localhost</string>
+				<string>magemobile</string>
 			</array>
 		</dict>
 	</array>

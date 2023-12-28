@@ -26,13 +26,16 @@ class LoginModel: ObservableObject {
     @Published var auth: AuthData?
     
     func fetchLogin(type: AuthType) async throws {
+        var header: [String: String] = [:]
+        header["User-Agent"] = "Mage-Mobile"
+        
         switch type {
         case .google:
-            login = try await client.load(Resource(url: URL.googleAuth))
+            login = try await client.load(Resource(url: URL.googleAuth, headers: header))
         case .github:
-            login = try await client.load(Resource(url: URL.githubAuth))
+            login = try await client.load(Resource(url: URL.githubAuth, headers: header))
         case .discord:
-            login = try await client.load(Resource(url: URL.discordAuth))
+            login = try await client.load(Resource(url: URL.discordAuth, headers: header))
         }
         print(login)
     }

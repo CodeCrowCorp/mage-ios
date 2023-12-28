@@ -251,7 +251,6 @@
 				B3A89E9C2AD824C90034E3C1 /* buttonView */,
 				9C26194E2AD3C3B000E0DDD3 /* ChannelCellView.swift */,
 				B3A89E8A2AD8219A0034E3C1 /* BaseScreen.swift */,
-
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -288,7 +287,6 @@
 				9C26193E2AD3BF2B00E0DDD3 /* Screens */,
 				B3A89E942AD8230F0034E3C1 /* Common */,
 				9C26193D2AD3BF2300E0DDD3 /* Views */,
-
 				9C26193B2AD3BF0600E0DDD3 /* Models */,
 				9C26193A2AD3BEED00E0DDD3 /* Extensions */,
 				9C2619392AD3BED100E0DDD3 /* Clients */,
