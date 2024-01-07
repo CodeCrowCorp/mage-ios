@@ -72,11 +72,17 @@ class HttpClient {
         }
         
         let configuration = URLSessionConfiguration.default
-        configuration.httpAdditionalHeaders = ["Content-Type": "application/json"]
+        
+        configuration.httpAdditionalHeaders = ["Content-Type": "application/json",
+                                               "x-api-key": "89ft2axc7yttqj4cba22qit7ztpebi"] // gbg5qzp3s17zhddy3tv6o9rkovqm2q
         
         let session = URLSession(configuration: configuration)
         
         let (data, response) = try await session.data(for: request)
+        
+        let string = String(data: data, encoding: .utf8)!
+        print("API RESPONSE: ", string)
+        
         guard let httpResponse = response as? HTTPURLResponse,
               httpResponse.statusCode == 200 || httpResponse.statusCode == 201
         else {

@@ -10,11 +10,12 @@ import SwiftUI
 @main
 struct mage_iosApp: App {
     
-    @StateObject private var channelModel = ChannelModel()
+    @State var isFromLogin = false
     
     var body: some Scene {
         WindowGroup {
-            BrowseScreen().environmentObject(channelModel)
+            LogInScreen(isLogin: _isFromLogin)
+                .environmentObject(LoginModel())
         }
     }
 }
